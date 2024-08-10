@@ -5,15 +5,15 @@ import { Calendar } from '../calendar'
 import useDate from './useDate'
 
 export function CalendarDemo() {
-  const { date, setDate } = useDate()
+    const { date, setDate } = useDate()
 
-  return (
-    <Calendar
-      mode="single"
-      locale={ptBR}
-      selected={date}
-      onSelect={setDate}
-      className="rounded-md border"
-    />
-  )
+    return (
+        <Calendar
+            mode="single"
+            locale={ptBR}
+            selected={date}
+            onSelect={setDate}
+            className="rounded-md border"
+        />
+    )
 }
