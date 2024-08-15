@@ -33,6 +33,12 @@ type Story = StoryObj<typeof meta>
 
 //color
 export const Default: Story = {
+    parameters: {
+        design: {
+          type: "figma",
+          url: "https://www.figma.com/design/zIMvmoEg4zlBN4pcph4Nu1/%40shadcn%2Fui---Design-System-(Community)?node-id=113-932&t=qMHkqVdN3fyBuZmA-1",
+        },
+      },
     args: {
         variant: 'default',
         children: 'ButtonShadcn',
