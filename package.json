@@ -14,7 +14,9 @@
         "chromatic": "npx chromatic --project-token=chpt_81a4c0c0202c647"
     },
     "dependencies": {
+        "@dotlottie/player-component": "^2.7.12",
         "@hookform/resolvers": "^3.3.2",
+        "@johanaarstein/dotlottie-player": "^1.5.23",
         "@radix-ui/react-accordion": "^1.1.2",
         "@radix-ui/react-alert-dialog": "^1.0.5",
         "@radix-ui/react-aspect-ratio": "^1.0.3",
